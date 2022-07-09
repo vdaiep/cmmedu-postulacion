@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cursos:
+    restart: always
+    container_name: cursos
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:8585"
+    entrypoint: ["python", "manage.py", "runserver"]
