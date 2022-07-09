@@ -1,0 +1,82 @@
+[
+    {
+        "model": "appcursos.estudiante",
+        "pk": 1,
+        "fields": {
+            "nombre": "Levi Ackerman",
+            "rut": "12345678-9"
+        }
+    },
+    {
+        "model": "appcursos.estudiante",
+        "pk": 2,
+        "fields": {
+            "nombre": "Tanjiro Kamado",
+            "rut": "13456789-0"
+        }
+    },
+    {
+        "model": "appcursos.estudiante",
+        "pk": 3,
+        "fields": {
+            "nombre": "Son Goku",
+            "rut": "14567890-1"
+        }
+    },
+    {
+        "model": "appcursos.estudiante",
+        "pk": 4,
+        "fields": {
+            "nombre": "Takemichi Hanagaki",
+            "rut": "15678901-2"
+        }
+    },
+    {
+        "model": "appcursos.estudiante",
+        "pk": 5,
+        "fields": {
+            "nombre": "Killua Zoldyck",
+            "rut": "16789012-3"
+        }
+    },
+    {
+        "model": "appcursos.estudiante",
+        "pk": 6,
+        "fields": {
+            "nombre": "Annie Leonhart",
+            "rut": "17890123-4"
+        }
+    },
+    {
+        "model": "appcursos.estudiante",
+        "pk": 7,
+        "fields": {
+            "nombre": "Misato Kastusagi",
+            "rut": "18901234-5"
+        }
+    },
+    {
+        "model": "appcursos.estudiante",
+        "pk": 8,
+        "fields": {
+            "nombre": "Nezuko Kamado",
+            "rut": "19012345-6"
+        }
+    },
+    {
+        "model": "appcursos.estudiante",
+        "pk": 9,
+        "fields": {
+            "nombre": "Manjiro Sano",
+            "rut": "10123456-7"
+        }
+    },
+    {
+        "model": "appcursos.estudiante",
+        "pk": 10,
+        "fields": {
+            "nombre": "Hinata Tachibana",
+            "rut": "11234567-8"
+        }
+    }
+]

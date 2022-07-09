@@ -1,0 +1,332 @@
+[
+    {
+        "model": "appcursos.curso",
+        "pk": 1,
+        "fields": {
+            "nombre": "Álgebra I",
+            "codigo": "MA11",
+            "anio": 2019,
+            "semestre": 1,
+            "estudiantes": [1, 2, 3]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 2,
+        "fields": {
+            "nombre": "Álgebra I",
+            "codigo": "MA11",
+            "anio": 2020,
+            "semestre": 1,
+            "estudiantes": [4, 5, 6, 7, 8]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 3,
+        "fields": {
+            "nombre": "Álgebra I",
+            "codigo": "MA11",
+            "anio": 2021,
+            "semestre": 1,
+            "estudiantes": [9, 10]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 4,
+        "fields": {
+            "nombre": "Cálculo I",
+            "codigo": "MA01",
+            "anio": 2019,
+            "semestre": 1,
+            "estudiantes": [1, 2, 3]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 5,
+        "fields": {
+            "nombre": "Cálculo I",
+            "codigo": "MA01",
+            "anio": 2020,
+            "semestre": 1,
+            "estudiantes": [4, 5, 6, 7, 8]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 6,
+        "fields": {
+            "nombre": "Cálculo I",
+            "codigo": "MA01",
+            "anio": 2021,
+            "semestre": 1,
+            "estudiantes": [9, 10]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 7,
+        "fields": {
+            "nombre": "Física Clásica",
+            "codigo": "FI01",
+            "anio": 2019,
+            "semestre": 1,
+            "estudiantes": [1, 2, 3]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 8,
+        "fields": {
+            "nombre": "Física Clásica",
+            "codigo": "FI01",
+            "anio": 2020,
+            "semestre": 1,
+            "estudiantes": [4, 5, 6, 7, 8]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 9,
+        "fields": {
+            "nombre": "Física Clásica",
+            "codigo": "FI01",
+            "anio": 2021,
+            "semestre": 1,
+            "estudiantes": [9, 10]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 10,
+        "fields": {
+            "nombre": "Química",
+            "codigo": "QC01",
+            "anio": 2019,
+            "semestre": 1,
+            "estudiantes": [1, 2, 3]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 11,
+        "fields": {
+            "nombre": "Química",
+            "codigo": "QC01",
+            "anio": 2020,
+            "semestre": 1,
+            "estudiantes": [4, 5, 6, 7, 8]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 12,
+        "fields": {
+            "nombre": "Química",
+            "codigo": "QC01",
+            "anio": 2021,
+            "semestre": 1,
+            "estudiantes": [9, 10]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 13,
+        "fields": {
+            "nombre": "Biología",
+            "codigo": "BI01",
+            "anio": 2019,
+            "semestre": 1,
+            "estudiantes": [1, 2, 3]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 14,
+        "fields": {
+            "nombre": "Biología",
+            "codigo": "BI01",
+            "anio": 2020,
+            "semestre": 1,
+            "estudiantes": [4, 5, 6, 7, 8]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 15,
+        "fields": {
+            "nombre": "Biología",
+            "codigo": "BI01",
+            "anio": 2021,
+            "semestre": 1,
+            "estudiantes": [9, 10]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 16,
+        "fields": {
+            "nombre": "Álgebra II",
+            "codigo": "MA12",
+            "anio": 2019,
+            "semestre": 2,
+            "estudiantes": [1, 2, 3]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 17,
+        "fields": {
+            "nombre": "Álgebra II",
+            "codigo": "MA12",
+            "anio": 2020,
+            "semestre": 2,
+            "estudiantes": [4, 5, 6, 7, 8]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 18,
+        "fields": {
+            "nombre": "Álgebra II",
+            "codigo": "MA12",
+            "anio": 2021,
+            "semestre": 2,
+            "estudiantes": [9, 10]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 19,
+        "fields": {
+            "nombre": "Cálculo II",
+            "codigo": "MA02",
+            "anio": 2019,
+            "semestre": 2,
+            "estudiantes": [1, 2, 3]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 20,
+        "fields": {
+            "nombre": "Cálculo II",
+            "codigo": "MA02",
+            "anio": 2020,
+            "semestre": 2,
+            "estudiantes": [4, 5, 6, 7, 8]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 21,
+        "fields": {
+            "nombre": "Cálculo II",
+            "codigo": "MA02",
+            "anio": 2021,
+            "semestre": 2,
+            "estudiantes": [9, 10]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 22,
+        "fields": {
+            "nombre": "Economía",
+            "codigo": "EC01",
+            "anio": 2019,
+            "semestre": 2,
+            "estudiantes": [1, 2, 3]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 23,
+        "fields": {
+            "nombre": "Economía",
+            "codigo": "EC01",
+            "anio": 2020,
+            "semestre": 2,
+            "estudiantes": [4, 5, 6, 7, 8]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 24,
+        "fields": {
+            "nombre": "Economía",
+            "codigo": "EC01",
+            "anio": 2021,
+            "semestre": 2,
+            "estudiantes": [9, 10]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 25,
+        "fields": {
+            "nombre": "Física Moderna",
+            "codigo": "FI02",
+            "anio": 2019,
+            "semestre": 2,
+            "estudiantes": [1, 2, 3]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 26,
+        "fields": {
+            "nombre": "Física Moderna",
+            "codigo": "FI02",
+            "anio": 2020,
+            "semestre": 2,
+            "estudiantes": [4, 5, 6, 7, 8]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 27,
+        "fields": {
+            "nombre": "Física Moderna",
+            "codigo": "FI02",
+            "anio": 2021,
+            "semestre": 2,
+            "estudiantes": [9, 10]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 28,
+        "fields": {
+            "nombre": "Programación",
+            "codigo": "CC01",
+            "anio": 2019,
+            "semestre": 2,
+            "estudiantes": [1, 2, 3]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 29,
+        "fields": {
+            "nombre": "Programación",
+            "codigo": "CC01",
+            "anio": 2020,
+            "semestre": 2,
+            "estudiantes": [4, 5, 6, 7, 8]
+        }
+    },
+    {
+        "model": "appcursos.curso",
+        "pk": 30,
+        "fields": {
+            "nombre": "Programación",
+            "codigo": "CC01",
+            "anio": 2021,
+            "semestre": 2,
+            "estudiantes": [9, 10]
+        }
+    }
+]

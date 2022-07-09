@@ -1,5 +1,10 @@
 from django.http import HttpResponse
+from django.views.decorators.http import require_http_methods
+from django.shortcuts import render
 
 
+@require_http_methods(["GET", "POST"])
 def index(request):
-    return HttpResponse("Hello, world. You're at the appcursos index.")
+    if request.method == "POST":
+        return 
+    return render(request, "appcursos/index.html")
