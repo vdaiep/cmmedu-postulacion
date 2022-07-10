@@ -6,52 +6,51 @@
         <link rel="shortcut icon" type="image/png" href="{% static 'appcursos/favicon.ico' %}"/>
         <link rel="stylesheet" href="{% static 'appcursos/css/styles.css' %}"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
-        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
-        <script src="{% static 'appcursos/js/scripts.js' %}"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="{% static 'appcursos/js/scripts.js' %}"></script>
     </head>
 
     <body>
         <div class="centered-text">
             <h1>Sistema de revisión de respuestas</h1>
         </div>
-        <div>
-            <form action="/" method="post">
-                {% csrf_token %}
-                <table>
-                    <tr>
-                        <td>
-                            Seleccionar semestre:
-                        </td>
-                        <td>
-                            <select id="semestre-select" name="semestre">
-                                <option value="2019-1">Otoño 2019</option>
-                                <option value="2019-2">Primavera 2019</option>
-                                <option value="2020-1">Otoño 2020</option>
-                                <option value="2020-2">Primavera 2020</option>
-                                <option value="2021-1">Otoño 2021</option>
-                                <option value="2021-2">Primavera 2021</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Seleccionar curso:
-                        </td>
-                        <td>
-                            <select id="curso-select" name="curso">
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <button type="submit">Solicitar</button>
-                        </td>
-                    </tr>
-                </table>
-            </form>
+        <div class="form-table">
+            <table class="form-container">
+                <tr>
+                    <td>
+                        <div class="form-label">Seleccionar semestre:</div>
+                    </td>
+                    <td class="select-td">
+                        <select id="semestre-select" name="semestre">
+                            <option value="2019-1">Otoño 2019</option>
+                            <option value="2019-2">Primavera 2019</option>
+                            <option value="2020-1">Otoño 2020</option>
+                            <option value="2020-2">Primavera 2020</option>
+                            <option value="2021-1">Otoño 2021</option>
+                            <option value="2021-2">Primavera 2021</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-label">Seleccionar curso:</div>
+                    </td>
+                    <td class="select-td">
+                        <select id="curso-select" name="curso">
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="button-td">
+                        <button type="button" id="submit-button">Solicitar</button>
+                    </td>
+                </tr>
+            </table>
         </div>
-        <div id="table-container" hidden>
+        <div id="table-container" class="table-container" hidden>
+            <h3 id="results-label"></h3>
             <table id="results-table">
                 <thead>
 
@@ -63,6 +62,9 @@
 
                 </tbody>
             </table>
+        </div>
+        <div id="export-button-container" class="export-button-container" hidden>
+            <button id="export-button">Exportar a CSV</button>
         </div>
     </body>
 </html>
