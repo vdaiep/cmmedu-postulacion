@@ -18,13 +18,11 @@ var cached_response;
 var busy = false;
 function handleSubmitButton() {
     $("#submit-button").on("click", function () {
-        console.log("button");
         if (!busy) {
             busy = true;
             anio = $("#semestre-select").val().split("-")[0];
             semestre = $("#semestre-select").val().split("-")[1];
             codigo = $("#curso-select").val().split(" - ")[0];
-            console.log($.cookie("csrftoken"));
             $.ajax({
                 url: "/",
                 type: "POST",
@@ -32,7 +30,7 @@ function handleSubmitButton() {
                 data: { anio: anio, semestre: semestre, codigo: codigo},
                 headers: {
                     "X-Requested-With": "XMLHttpRequest",
-                    "X-CSRFToken": $.cookie("csrftoken"),
+                    "X-CSRFToken": $("#csrf input").val(),
                 },
                 success: (response) => {
                     cached_response = response;
