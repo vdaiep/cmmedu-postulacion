@@ -34,7 +34,7 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = False
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ["appcursos-dev2.us-east-1.elasticbeanstalk.com", "play2.vdaiep.cl"]
+CSRF_TRUSTED_ORIGINS = ["http://appcursos-dev2.us-east-1.elasticbeanstalk.com", "http://play2.vdaiep.cl", "https://appcursos-dev2.us-east-1.elasticbeanstalk.com", "https://play2.vdaiep.cl"]
 
 # Application definition
 
