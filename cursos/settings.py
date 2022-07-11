@@ -33,7 +33,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', 'http://appcursos-dev2.us-east-1.elasticbeanstalk.com/' 'https://appcursos-dev2.us-east-1.elasticbeanstalk.com/', 'http://play2.vdaiep.cl/', 'https://play2.vdaiep.cl/']
 
 
 # Application definition
