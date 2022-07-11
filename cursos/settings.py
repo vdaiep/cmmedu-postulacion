@@ -133,6 +133,8 @@ STATIC_ROOT = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+CSRF_TRUSTED_ORIGINS = ["http://appcursos-dev2.us-east-1.elasticbeanstalk.com/"]
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': True,
