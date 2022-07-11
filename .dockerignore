@@ -1,0 +1,8 @@
+# Repository
+LICENSE
+README.md
+requirements.txt
+.gitignore
+
+# Cache
+*__pycache__*
