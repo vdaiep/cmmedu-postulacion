@@ -4,9 +4,11 @@ Este proyecto fue desarrollado entre el 8 y el 10 de junio de 2022, como tarea p
 
 ## 1. Instalación y deploy
 
-La aplicación se encuentra implementada en un servidor AWS (usando Elastic Beanstalk), disponible desde la URL siguiente: [https://play2.vdaiep.cl](https://play2.vdaiep.cl)
+La aplicación se encuentra implementada en un servidor AWS (usando Elastic Beanstalk), disponible desde la URL siguiente: <a href="https://play2.vdaiep.cl/" target="_blank">https://play2.vdaiep.cl/</a>
 
-Para ejecutarla en un servidor local, basta con clonar este repositorio, y agregar los archivos `.env` y `db.sqlite3` (no disponibles en este repositorio a propósito por motivos de seguridad, pero como se trata de una aplicación de juego, pueden descargarse desde [aquí](https://appcursos-env-db.s3.amazonaws.com/env_and_db.zip)). Los archivos deben estar al mismo nivel que `manage.py`. Luego, debe instalarse y ejecutarse usando Docker. Para instalar, se ejecuta una única vez el comando siguiente:
+<a href="https://appcursos-env-db.s3.amazonaws.com/env_and_db.zip" target="_blank">aquí</a>
+
+Para ejecutarla en un servidor local, basta con clonar este repositorio, y agregar los archivos `.env` y `db.sqlite3` (no disponibles en este repositorio a propósito por motivos de seguridad, pero como se trata de una aplicación de juego, pueden descargarse desde <a href="https://appcursos-env-db.s3.amazonaws.com/env_and_db.zip" target="_blank">aquí</a>). Los archivos deben estar al mismo nivel que `manage.py`. Luego, debe instalarse y ejecutarse usando Docker. Para instalar, se ejecuta una única vez el comando siguiente:
 
 ```
 $ docker-compose build
